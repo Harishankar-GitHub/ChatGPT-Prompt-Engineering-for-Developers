@@ -176,11 +176,92 @@ Problem: Information needs to be presented in a structured format
 
 ---
 
+### 📄 Section 3: Summarizing
+
+**Notebook**: [`3_summarizing.ipynb`](3_summarizing.ipynb)
+
+This section explores how to use LLMs to summarize text with a focus on specific topics or aspects. The practical examples use product reviews from an e-commerce site to demonstrate different summarization techniques.
+
+#### 🎯 Use Case: Summarizing Product Reviews
+
+The examples demonstrate summarizing customer reviews for different stakeholders (shipping department, pricing department, etc.) to extract relevant insights efficiently.
+
+#### 📝 Summarization Techniques
+
+**📏 Summarize with Length Limits**
+
+Control the output length by specifying constraints:
+- Set word limits (e.g., "in at most 30 words")
+- Can also use sentence or character limits
+- Helps create concise summaries suitable for dashboards or reports
+
+**🚚 Summarize with Focus on Specific Topics**
+
+Tailor summaries for different audiences and purposes:
+
+**Focus on Shipping and Delivery:**
+- Extract information relevant to logistics teams
+- Highlight delivery times, shipping issues, and packaging quality
+- Useful for operational feedback
+
+**💰 Focus on Price and Value:**
+- Extract pricing-related feedback for pricing departments
+- Identify perceived value and price sensitivity
+- Helps inform pricing strategy decisions
+
+**⚠️ Note:** Summaries may include some unrelated topics even when focused on specific aspects.
+
+#### 🔍 Extract vs. Summarize
+
+**"Extract" for Precision:**
+- Use "extract" instead of "summarize" for more focused results
+- Pulls only the relevant information without additional context
+- More precise when you need specific data points
+- Better for filtering out unrelated information
+
+**"Summarize" for Context:**
+- Provides a condensed version with broader context
+- May include related but not directly relevant information
+- Better for general overviews
+
+#### 📊 Summarizing Multiple Reviews
+
+**Batch Processing:**
+- Process multiple reviews efficiently using loops
+- Generate consistent summaries across large datasets
+- Useful for analyzing customer feedback at scale
+- Can create dashboards or reports from bulk review data
+
+**Example Applications:**
+- 🛍️ E-commerce review analysis
+- 📦 Logistics feedback extraction
+- 💵 Pricing insights gathering
+- ⭐ Customer sentiment tracking
+
+#### 💡 Key Learnings
+
+**Best Practices:**
+- 🎯 Specify the target audience or department for focused summaries
+- 📏 Set clear length constraints for consistent output
+- 🔍 Use "extract" for precision, "summarize" for context
+- 🔄 Process multiple items in batches for efficiency
+- 📌 Focus on specific aspects (shipping, pricing, quality) based on needs
+
+**Practical Applications:**
+- 📊 Creating executive summaries from long documents
+- 🛒 Analyzing customer feedback at scale
+- 📈 Generating insights for different departments
+- 📝 Condensing technical documentation
+- 💬 Processing large volumes of text data efficiently
+
+---
+
 ## 💻 Practical Implementation
 
 All concepts are demonstrated in Jupyter notebooks with working code examples:
 - [`1_guidelines_for_prompting.ipynb`](1_guidelines_for_prompting.ipynb) - Two core prompting principles with tactics and model limitations
 - [`2_iterative_prompt_development.ipynb`](2_iterative_prompt_development.ipynb) - Iterative refinement process for generating marketing copy
+- [`3_summarizing.ipynb`](3_summarizing.ipynb) - Text summarization techniques with focus on specific topics
 
 ## ✨ Key Takeaways
 
@@ -194,6 +275,9 @@ All concepts are demonstrated in Jupyter notebooks with working code examples:
 - Analyze output and refine prompts systematically based on specific issues
 - Be explicit about length constraints, target audience, and desired focus areas
 - Request specific formats (HTML, tables, JSON) for production-ready outputs
+- Use "extract" for precision and "summarize" for broader context
+- Tailor summaries to specific audiences and departments for actionable insights
+- Process multiple items in batches for efficient large-scale analysis
 
 ## 🔧 Technical Details
 

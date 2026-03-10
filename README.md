@@ -25,9 +25,9 @@ This course teaches prompt engineering concepts using the OpenAI library in Pyth
 
 ---
 
-## 📖 Course Sections
+## 📖 Course Lessons
 
-### 📝 Section 1: Guidelines for Prompting
+### 📝 Lesson 1: Guidelines for Prompting
 
 **Notebook**: [`1_guidelines_for_prompting.ipynb`](1_guidelines_for_prompting.ipynb)
 
@@ -107,7 +107,7 @@ This prevents the model from being biased by the provided solution and leads to 
 
 ---
 
-### 🔄 Section 2: Iterative Prompt Development
+### 🔄 Lesson 2: Iterative Prompt Development
 
 **Notebook**: [`2_iterative_prompt_development.ipynb`](2_iterative_prompt_development.ipynb)
 
@@ -176,7 +176,7 @@ Problem: Information needs to be presented in a structured format
 
 ---
 
-### 📄 Section 3: Summarizing
+### 📄 Lesson 3: Summarizing
 
 **Notebook**: [`3_summarizing.ipynb`](3_summarizing.ipynb)
 
@@ -256,7 +256,7 @@ Tailor summaries for different audiences and purposes:
 
 ---
 
-### 🔍 Section 4: Inferring
+### 🔍 Lesson 4: Inferring
 
 **Notebook**: [`4_inferring.ipynb`](4_inferring.ipynb)
 
@@ -365,7 +365,7 @@ The notebook covers two main use cases:
 
 ---
 
-### 🔄 Section 5: Transforming
+### 🔄 Lesson 5: Transforming
 
 **Notebook**: [`5_transforming.ipynb`](5_transforming.ipynb)
 
@@ -495,7 +495,7 @@ The notebook demonstrates various transformation capabilities:
 
 ---
 
-### 📧 Section 6: Expanding
+### 📧 Lesson 6: Expanding
 
 **Notebook**: [`6_expanding.ipynb`](6_expanding.ipynb)
 
@@ -552,10 +552,10 @@ The notebook demonstrates how to:
 
 #### 🔄 Combining Previous Concepts
 
-**Integration with Earlier Sections:**
-- 🔍 Use sentiment from **Section 4: Inferring** to determine response type
-- 📝 Apply techniques from **Section 1: Guidelines** for clear instructions
-- 🎭 Leverage **Section 5: Transforming** for tone adjustment
+**Integration with Earlier Lessons:**
+- 🔍 Use sentiment from **Lesson 4: Inferring** to determine response type
+- 📝 Apply techniques from **Lesson 1: Guidelines** for clear instructions
+- 🎭 Leverage **Lesson 5: Transforming** for tone adjustment
 - Demonstrates how different prompting techniques work together
 
 **Workflow Example:**
@@ -596,11 +596,11 @@ The notebook demonstrates how to:
 - Expanding is the opposite of summarizing
 - Takes brief input and generates detailed, contextual output
 - Particularly powerful for customer-facing communications
-- Combines multiple prompting techniques learned in previous sections
+- Combines multiple prompting techniques learned in previous lessons
 
 ---
 
-### 💬 Section 7: Chatbot
+### 💬 Lesson 7: Chatbot
 
 **Notebook**: [`7_chatbot.ipynb`](7_chatbot.ipynb)
 
@@ -776,7 +776,7 @@ All concepts are demonstrated in Jupyter notebooks with working code examples:
 - Combine multiple transformations (proofread + tone + style) in one prompt for efficiency
 - Expanding is the opposite of summarizing - generates detailed content from brief input
 - Temperature parameter controls response variation and creativity
-- Combine techniques from multiple sections for powerful workflows (infer + expand)
+- Combine techniques from multiple lessons for powerful workflows (infer + expand)
 - Chat format enables multi-turn conversations with context management
 - System messages define chatbot behavior and personality for entire conversations
 - Include full conversation history in messages array to maintain context and memory
@@ -794,3 +794,67 @@ All concepts are demonstrated in Jupyter notebooks with working code examples:
   - `IPython.display` (for rendering HTML, Markdown, JSON in notebooks)
   - `redlines` (for visualizing text differences and edits)
   - `panel` (for building interactive GUI dashboards in notebooks)
+
+---
+
+## 🎓 Course Conclusion
+
+### 📚 What I Learned
+
+This course covered essential concepts and practical applications of prompt engineering:
+
+**🎯 Two Key Principles for Prompting:**
+1. ✍️ Write clear and specific instructions
+2. 🧠 Give the model time to "think" when appropriate
+
+**🔄 Iterative Prompt Development:**
+- Having a process to get to the right prompt is key
+- Start with a basic prompt and refine based on output
+- No prompt is perfect on the first try
+
+**💡 Key Capabilities of Large Language Models:**
+- 📄 **Summarizing** - Condense long text into concise summaries
+- 🔍 **Inferring** - Extract sentiment, emotions, and topics
+- 🔄 **Transforming** - Translate, adjust tone, convert formats, proofread
+- 📧 **Expanding** - Generate detailed content from brief input
+- 💬 **Building Custom Chatbots** - Create specialized conversational AI
+
+### 🚀 Next Steps
+
+**Start Building:**
+- 🎨 No application is too small - start with a small project
+- 🎮 Experiment and have fun with the models
+- 📈 Use learnings from your first project to build a better second project
+- 🔨 If you have an idea for a bigger project, go for it!
+
+**Responsible AI:**
+- 🌟 Use these powerful tools responsibly
+- 💚 Build things that will have a positive impact
+- 🤝 Remember that AI systems can have huge impacts on others
+- ✅ Only use these tools to create positive outcomes
+
+**Growing Field:**
+- 🚀 Building LLM-based applications is an exciting and growing field
+- 💪 You now have knowledge that few people today possess
+- 🌍 Share your knowledge and encourage others to learn
+- 📣 Help spread the word about prompt engineering
+
+### 🎉 Final Thoughts
+
+This course has equipped me with practical skills to build real-world applications using large language models. The combination of clear principles, hands-on examples, and iterative development processes provides a solid foundation for creating AI-powered solutions.
+
+The journey from understanding basic prompting principles to building a fully functional chatbot demonstrates the power and versatility of LLMs. Each section built upon the previous one, showing how these techniques can be combined to create sophisticated applications.
+
+---
+
+## 📚 Resources
+
+- [Course Link](https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/)
+- [OpenAI API Documentation](https://platform.openai.com/docs)
+- [OpenAI API Keys](https://platform.openai.com/api-keys)
+
+---
+
+## 📝 License
+
+This repository contains my personal learning notes from the course. Please refer to the [course website](https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/) for official course materials.

@@ -858,3 +858,9 @@ The journey from understanding basic prompting principles to building a fully fu
 ## 📝 License
 
 This repository contains my personal learning notes from the course. Please refer to the [course website](https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/) for official course materials.
+
+## Attribution
+
+This repository contains my notes from the [ChatGPT Prompt Engineering for Developers](https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/) short course by DeepLearning.AI and OpenAI. The Jupyter notebooks are based on the course's lesson notebooks. The original course material, including its example code, belongs to its author.
+
+The [MIT license](LICENSE) in this repository applies only to my own notes, changes and additions, not to the original course material.
